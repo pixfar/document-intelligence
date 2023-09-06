@@ -1,0 +1,29 @@
+{
+  "name": "document-intelligence",
+  "version": "1.0.0",
+  "description": "Document Intelligence is an automated data processing system that uses AI and OCR to quickly extract text and structure from documents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixfar/document-intelligence.git"
+  },
+  "keywords": [
+    "OCR",
+    "Documents",
+    "Management"
+  ],
+  "author": "Shaid Azmin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixfar/document-intelligence/issues"
+  },
+  "homepage": "https://github.com/pixfar/document-intelligence#readme",
+  "dependencies": {
+    "@azure/ai-form-recognizer": "^5.0.0",
+    "@azure/identity": "^3.3.0",
+    "dotenv": "^16.3.1"
+  }
+}
